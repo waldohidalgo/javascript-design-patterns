@@ -367,19 +367,19 @@ sendMessageWithTimestamp("Hello, World!");
 
 Definición:
 
-> Define la organización de módulos en tres categorías: el Model es donde reside la data y lógica de negocio, la View contiene los módulos relacionados con la visualización de la data y Controller corresponde a los módulos que contienen la lógica de la aplicación. La View con el Model estan estrechamente relacionadas tal que las Views obtienen la data desde el Modelo. Las entradas en las View son manejadas por el controlador el cual actualiza el modelo.
+> Define la organización de módulos en tres categorías: el Model es donde reside la data y lógica de negocio, la View contiene los módulos relacionados con la visualización de la data y Controller corresponde a los módulos que contienen la lógica de la aplicación. La View con el Model estan estrechamente relacionadas tal que las Views obtienen la data desde el Modelo. Las entradas(inputs) en las Views son manejadas por el controlador el cual actualiza el modelo.
 
 #### 2.7-MVP (Model, View, Presenter) Pattern
 
 Definición:
 
-> Semejante al MVC pero se diferencia en que las Views solo tienen acceso a los Controllers (quienes ahora se llaman Presentador), siendo estos quienes interactuan con el Modelo, obtienen la data y la pasan a las Views. En este caso el Presentador posee dos funciones: manejar las entradas desde las Views y actualizar las Views con la data del Modelo.
+> Semejante al MVC pero se diferencia en que las Views solo tienen acceso a los Controllers (quienes ahora se llaman Presenters), siendo estos quienes interactuan con el Modelo, obtienen la data y la pasan a las Views. En este caso el Presentador posee dos funciones: manejar las entradas(inputs) desde las Views y actualizar las Views con la data del Modelo.
 
 #### 2.8-MVVM (Model, View, ViewModel) Pattern
 
 Definición:
 
-> Se compone de una View encargada de presentar la data e interactuar con el usuario.Dicha View se relaciona con la ViewModel la cual maneja la interacción entre la View y el Modelo. La relación de la View con la ViewModel es poder medio del enlace de datos (data-binding) permitiendo que los cambios en el ViewModel se reflejen automáticamente en la View y viceversa.
+> Se compone de una View encargada de presentar la data e interactuar con el usuario.Dicha View se relaciona con la ViewModel la cual maneja la interacción entre la View y el Modelo. La relación de la View con la ViewModel es por medio del enlace de datos (data-binding) permitiendo que los cambios en el ViewModel se reflejen automáticamente en la View y viceversa.
 
 ### 3-Behavioral Patterns
 
